@@ -463,7 +463,7 @@ function renderAddr(features) {
     row.appendChild(textWrap);
     row.addEventListener('mouseenter', () => { row.style.background = 'rgba(255,90,31,.1)'; });
     row.addEventListener('mouseleave', () => { row.style.background = ''; });
-    row.addEventListener('click', () => selectAddr(road + ' '));
+    row.addEventListener('click', () => selectAddr(full));
     sugg.appendChild(row);
   });
 
